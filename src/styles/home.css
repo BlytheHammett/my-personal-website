@@ -1,0 +1,109 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #272727;
+}
+
+.gradient {
+    background: linear-gradient(to right, #7F00FF, #E100FF);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+/* extra small devices */
+@media only screen and (max-width: 600px) {
+    .content {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .greeting {
+        margin-bottom: -1.5rem;
+    }
+
+    .name {
+        margin-bottom: -1.5rem;
+    }
+
+    .headshot {
+        height: 250px;
+        width: 250px;
+        border: 2px solid white;
+        box-shadow: 6px 4px white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+    }
+}
+
+/* small devices */
+@media only screen and (min-width: 600px) {
+    .content {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .greeting {
+        margin-bottom: -1.5rem;
+    }
+
+    .name {
+        margin-bottom: -1.5rem;
+    }
+
+    .headshot {
+        height: 300px;
+        width: 300px;
+        border: 2px solid white;
+        box-shadow: 6px 4px white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+    }
+
+    .intro h1 {
+        font-size: 40px;
+    }
+}
+
+/* medium devices */
+@media only screen and (min-width: 768px) {
+    .headshot {
+        height: 350px;
+        width: 350px;
+    }
+
+    .intro h1 {
+        font-size: 45px;
+    }
+}
+
+/* large devices */
+@media only screen and (min-width: 992px) {
+    .content {
+        display: flex;
+        margin-top: 5rem;
+    }
+
+    .intro {
+        margin-right: 5rem;
+    }
+}
+
+/* extra large devices */
+@media only screen and (min-width: 1200px) {
+    
+}

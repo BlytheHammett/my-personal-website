@@ -1,0 +1,94 @@
+.poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: white;
+}
+
+.about-content p {
+    color: lightgray;
+    line-height: 21px;
+}
+
+/* phones */
+@media only screen and (max-width: 600px) {
+    .about-content {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10rem;
+        width: 85%;
+    }
+
+    .hiking {
+        height: 300px;
+        width: 250px;
+        border: 2px solid white;
+        box-shadow: 6px 4px white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+    }
+}
+
+/* small devices */
+@media only screen and (min-width: 600px) {
+    .about-content {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10rem;
+        width: 85%;
+    }
+
+    .about-header {
+        font-size: 35px;
+    }
+
+    .about-content p {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    .hiking {
+        height: 350px;
+        width: 300px;
+        border: 2px solid white;
+        box-shadow: 6px 4px white;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3rem;
+    }
+
+}
+
+/* medium devices */
+@media only screen and (min-width: 768px) {
+    .about-content {
+        width: 70%;
+    }
+
+    .about-header {
+        font-size: 40px;
+    }
+
+    .about-content p {
+        font-size: 20px;
+        line-height: 27px;
+    }
+
+    .hiking {
+        height: 400px;
+        width: 350px;
+    }
+}
+
+/* large devices */
+@media only screen and (min-width: 992px) {
+    .about-content {
+        margin-top: 15rem;
+        width: 60%;
+    }
+}

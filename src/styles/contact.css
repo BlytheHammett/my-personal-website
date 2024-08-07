@@ -1,0 +1,39 @@
+.contact-content a {
+    text-decoration: none;
+}
+
+/* phones */
+@media only screen and (max-width: 600px) {
+    .contact-content {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10rem;
+    }
+}
+
+/* small devices */
+@media only screen and (min-width: 600px) {
+    .contact-content {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10rem;
+    }
+
+    .contact-header {
+        font-size: 35px;
+    }
+}
+
+/* medium devices */
+@media only screen and (min-width: 768px) {
+    .contact-header {
+        font-size: 40px;
+    }
+}
+
+/* large devices */
+@media only screen and (min-width: 992px) {
+    
+}

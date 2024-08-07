@@ -1,0 +1,133 @@
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+}
+
+.projects a {
+    text-decoration: none;
+}
+
+.project:hover {
+    border: 0.1px solid #7F00FF;
+}
+
+.proj-emoji {
+    margin-bottom: -0.5rem;
+}
+
+.proj-tech {
+    display: flex;
+}
+
+/* phones */
+@media only screen and (max-width: 600px) {
+    .projects-content {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10rem;
+        width: 85%;
+    }
+
+    .proj-title {
+        font-size: 25px;
+        margin-bottom: -0.5rem;
+    }
+
+    .projects-content p {
+        color: lightgray;
+        line-height: 21px;
+    }
+
+    .project {
+        border: 0.1px solid lightgray;
+        border-radius: 8px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .proj-tech p {
+        border-radius: 10px;
+        max-width: fit-content;
+        padding: 0.3rem;
+        background-color: #7F00FF;
+        font-size: 13px;
+    }
+
+    .tech {
+        margin-right: 1rem;
+    }
+}
+
+/* small devices */
+@media only screen and (min-width: 600px) {
+    .projects-content {
+        max-width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 10rem;
+        width: 85%;
+    }
+
+    .projects-header {
+        font-size: 35px;
+    }
+
+    .proj-title {
+        font-size: 27px;
+        margin-bottom: -0.5rem;
+    }
+
+    .projects-content p {
+        color: lightgray;
+        line-height: 23px;
+        font-size: 18px;
+    }
+
+    .project {
+        border: 0.1px solid lightgray;
+        border-radius: 8px;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .proj-tech p {
+        border-radius: 10px;
+        max-width: fit-content;
+        padding: 0.3rem;
+        background-color: #7F00FF;
+        font-size: 15px;
+    }
+
+    .tech {
+        margin-right: 1rem;
+    }
+}
+
+/* medium devices */
+@media only screen and (min-width: 768px) {
+    .projects-content {
+        width: 70%;
+    }
+
+    .projects-header {
+        font-size: 40px;
+    }
+
+    .projects-content p {
+        line-height: 27px;
+        font-size: 20px;
+    }
+}
+
+/* large devices */
+@media only screen and (min-width: 992px) {
+    .projects-content {
+        margin-top: 15rem;
+        width: 60%;
+    }
+}
