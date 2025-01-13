@@ -8,7 +8,7 @@ export default function About() {
                 <h1 className='poppins-bold about-header'>A few words about <span className='gradient'>me</span></h1>
                 <p>
                     I recently graduated from Indiana University with a degree in computer
-                    science. Last summer I interned @ Anthology as a software engineer
+                    science. Last summer I interned at Anthology as a software engineer
                     where I developed on their learning management system, Blackboard, which
                     is used by more than 100 million users worldwide. This opportunity gave
                     me valuable industry experience and allowed me to develop my technical
