@@ -25,7 +25,7 @@ export default function Navbar() {
                     <a href='#contact' className='poppins-semibold'>Contact</a>
                 </li>
                 <li className='poppins-semibold'>
-                    <a href='https://drive.google.com/file/d/1rurdTKFucseZhPlNaxeDl8igWLVpyFZU/view?usp=sharing' className='poppins-semibold'>Resume</a>
+                    <a href='https://drive.google.com/file/d/11XNL6AY4_5FZ_F614eiPO8C-eV49O5_6/view?usp=sharing' className='poppins-semibold'>Resume</a>
                 </li>
             </ul>
         </nav>
