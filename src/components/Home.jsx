@@ -12,8 +12,7 @@ export default function Home() {
             <div className='content'>
                 <div className='intro'>
                     <h1 className='poppins-bold greeting'>Hi <span class="wave">👋</span></h1>
-                    <h1 className='poppins-bold name'>I am <span className='gradient'>Blythe</span>,</h1>
-                    <h1 className='poppins-bold title'>software developer</h1>
+                    <h1 className='poppins-bold name'>I'm <span className='gradient'>Blythe</span></h1>
                 </div>
                 <img src={headshot} alt='headshot' className='headshot'></img>
             </div>
